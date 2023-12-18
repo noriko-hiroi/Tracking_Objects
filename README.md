@@ -18,3 +18,7 @@ Then you will get 3 .pkl files(comet_num_time_test.pkl, comet_num_time_train.pkl
 4. Now you have to change config_trCOMITformer.py L30 ~ L39 dependent on your data characteristics.
 For example, if your dataset is small, the number at L30, L31 may be better keeping small number, the other case is oposit.
 
+You have to prepare 3 folders for 3 .pkl files with the name of the .pkl files.
+
+
+
