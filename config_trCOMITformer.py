@@ -40,25 +40,25 @@ class Config():
     
     dataset_name = "comet_num_time"
 
-    if dataset_name == "comet_num_time": #==============================
+    # if dataset_name == "comet_num_time": #==============================
    
-        # When mode == "grad" or "pos_grad", sog and cog are actually dlat and 
-        # dlon    
-        lat_size = 230
-        lon_size = 320
-        sog_size = 30
-        cog_size = 72
-
-        
-        n_lat_embd = 256
-        n_lon_embd = 256
-        n_sog_embd = 128
-        n_cog_embd = 128
+    # When mode == "grad" or "pos_grad", sog and cog are actually dlat and 
+    # dlon    
+    lat_size = 230
+    lon_size = 320
+    sog_size = 30
+    cog_size = 72
     
-        lat_min = 47.0
-        lat_max = 279.0
-        lon_min = 49.0
-        lon_max = 289.0
+    
+    n_lat_embd = 256
+    n_lon_embd = 256
+    n_sog_embd = 128
+    n_cog_embd = 128
+    
+    lat_min = 47.0
+    lat_max = 279.0
+    lon_min = 49.0
+    lon_max = 289.0
 
     
     #===========================================================================
