@@ -2,7 +2,7 @@
 This is the repository for the code of object tracking based on Transformer.
 All code and data were prepared by Koya Takahashi(mskey17).
 
-##### How to use #####
+##### How to use trCOMITformer #####
 1. Prepare your csv
    The csv data must consists of the column of 
 ID, time[msec], X, Y, Velocity[nm/sec], angle[degree], normpix[µm^2], Distance
