@@ -11,8 +11,9 @@ Among above, normpix and Distance is not needed to be a true values (it will not
 
 2. Run csv2pkl_comet.py at the place you store the above csv.
 You musty modify the file mane to your data csv.
-You have to check and rewrite the L21 ~ L23 dependent on your environment.
+You have to check and rewrite the L21 ~ L23 dependent on your environment(the path and the filename).
 
 Then you will get 3 .pkl files(comet_num_time_test.pkl, comet_num_time_train.pkl, comet_num_time_valid.pkl).
 
-4. Now you have to 
+4. Now you have to change config_trCOMITformer dependent on your environment.
+
