@@ -15,5 +15,6 @@ You have to check and rewrite the L21 ~ L23 dependent on your environment(the pa
 
 Then you will get 3 .pkl files(comet_num_time_test.pkl, comet_num_time_train.pkl, comet_num_time_valid.pkl).
 
-4. Now you have to change config_trCOMITformer dependent on your environment.
+4. Now you have to change config_trCOMITformer.py L30 ~ L39 dependent on your data characteristics.
+For example, if your dataset is small, the number at L30, L31 may be better keeping small number, the other case is oposit.
 
