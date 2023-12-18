@@ -32,7 +32,7 @@ For example, if your dataset is small, the number at L30, L31 may be better keep
 Now Run config_trCOMITformer.py.
 
 5. Run trCOMITformer.py.
-
+Currently L199 ~ will produce plots but not appropriate ones, so plz just ignore.
 
 
 
