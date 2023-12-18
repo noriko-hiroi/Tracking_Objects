@@ -27,7 +27,11 @@ For example, if your dataset is small, the number at L30, L31 may be better keep
 
  5) L58 ~ L61 should have Lon_Max and Lon_Min(=X), Lat_Max and Lat_Min)(=Y).
 
- 6) L84 requires 
+ 6) L84 requires the folder name of which is the place for the folders of each pkl file.
+
+Now Run config_trCOMITformer.py.
+
+5. Run trCOMITformer.py.
 
 
 
